@@ -14,9 +14,7 @@ public class ReportCard {
 		while (true) {
 			System.out.println("Score:");
 			int score = scanner.nextInt();
-			if (score == -1) {
-				break;
-			}
+			if (score == -1) {break;}
 			total = total + score;
 			count = count + 1;
 		}
