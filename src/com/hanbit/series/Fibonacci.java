@@ -1,5 +1,5 @@
 
-package com.hanbit.loop_for;
+package com.hanbit.series;
 
 public class Fibonacci {
 public static void main(String[] args) {
