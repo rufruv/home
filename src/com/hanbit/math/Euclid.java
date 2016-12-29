@@ -36,11 +36,11 @@ public class Euclid {
 		while (true) {
 			nmg = big % small;
 			if (nmg == 0) {break;}
-			nmg=small;
 			big=small;
+      	    small=nmg;
+      	    gcd=small;
+      	    lcm=(a*b)/gcd;
 		}
-		gcd=small;
-		lcm=(a*b)/gcd;
-		System.out.println("최대공약수:"+lcm+","+"최소공배수:"+gcd);
+		System.out.println("최대공약수:"+gcd+","+"최소공배수:"+lcm);
 	}
 }
